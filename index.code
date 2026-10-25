@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieSpace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="film.svg" alt="MovieSpace" width="50" height="50">
+        <h1>MovieSpace</h1>
+        <nav>
+            <ul>
+                <img src="homelogo.svg" alt="homepage" width="20" height="20">
+                <li><strong><a href="">Ana Sayfa</a></strong></li>
+                <img src="vizyon.svg" alt="vizyon" width="20" height="20">
+                <li><strong><a href="">Vizyondakiler</a></strong></li>
+                <img src="izlediklerim.png" alt="watched" width="20" height="20">
+                <li><strong><a href="">İzlediklerim</a></strong></li>
+                <img src="hesabım.svg" alt="account" width="20" height="20">
+                <li><strong><a href="">Hesabım</a></strong></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h4><strong>Bu Haftanın Trendleri</strong></h4>
+            <p>Filmler teker teker gelecek.</p>
+        </section>
+
+        <section>
+            <h4><strong>Son İzlediklerim</strong></h4>
+            <p>Filmler teker teker gelecek. Verilen puanlar ile birlikte</p>
+        </section>
+
+        <section>
+            <h4><strong>Arkadaşlarımın İzledikleri</strong></h4>
+            <p>Filmler teker teker gelecek. Verilen puanlar ile birlikte</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MovieSpace &middot;Tüm hakları saklıdır.</p>
+    </footer>
+
+
+</body>
+
+
+
+
+</html>
