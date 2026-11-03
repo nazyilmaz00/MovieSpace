@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vizyondakiler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="ust-menu">
+        <div class="sol-kisim">
+            <li>
+                <img src="film.svg" alt="MovieSpace" width="50" height="50">
+                <h1>MovieSpace</h1>
+            </li>
+
+        </div>
+
+
+        <nav class="orta-kisim">
+            <li>
+                <img src="homelogo.svg" alt="vizyon" width="20" height="20">
+                <strong><a href="" class="isim">Ana Sayfa</a></strong>
+            </li>
+
+
+            <li>
+                <img src="vizyon.svg" alt="vizyon" width="20" height="20">
+                <strong><a href="" class="isim">Vizyondakiler</a></strong>
+            </li>
+            <li>
+                <img src="izlediklerim.png" alt="watched" width="20" height="20">
+                <strong><a href="" class="isim">İzlediklerim</a></strong>
+            </li>
+
+        </nav>
+
+        <div class="sag-kisim">
+
+            <li>
+                <img src="hesabım.svg" alt="account" width="20" height="20">
+                <strong><a href="girisyap.html" class="isim">Hesabım</a></strong>
+            </li>
+        </div>
+
+    </header>
+
+    <main>
+        <section>
+            <h4><strong> Bu Haftanın Trendleri</strong></h4>
+            <p> Filmler teker teker gelecek.</p>
+        </section>
+
+        <section>
+            <h4><strong> Son İzlediklerim</strong></h4>
+            <p> Filmler teker teker gelecek. Verilen puanlar ile birlikte</p>
+        </section>
+
+        <section>
+            <h4><strong> Arkadaşlarımın İzledikleri</strong></h4>
+            <p> Filmler teker teker gelecek. Verilen puanlar ile birlikte</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MovieSpace &middot;Tüm hakları saklıdır.</p>
+    </footer>
+
+
+</body>
+
+
+
+
+</html>
