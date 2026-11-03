@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="ust-menu">
+        <div class="sol-kisim">
+            <li>
+                <img src="film.svg" alt="MovieSpace" width="50" height="50">
+                <h1>MovieSpace</h1>
+            </li>
+
+        </div>
+
+
+        <nav class="orta-kisim">
+            <li>
+                <img src="homelogo.svg" alt="vizyon" width="20" height="20">
+                <strong><a href="" class="isim">Ana Sayfa</a></strong>
+            </li>
+
+
+            <li>
+                <img src="vizyon.svg" alt="vizyon" width="20" height="20">
+                <strong><a href="" class="isim">Vizyondakiler</a></strong>
+            </li>
+            <li>
+                <img src="izlediklerim.png" alt="watched" width="20" height="20">
+                <strong><a href="" class="isim">İzlediklerim</a></strong>
+            </li>
+
+        </nav>
+
+        <div class="sag-kisim">
+
+            <li>
+                <img src="hesabım.svg" alt="account" width="20" height="20">
+                <strong><a href="girisyap.html" class="isim">Hesabım</a></strong>
+            </li>
+        </div>
+
+    </header>
+
+    <!-- Tüm girişleri ve butonu tek bir form içine alıyoruz ve metodu POST yapıyoruz -->
+    <form action="index.html" method="post">
+        <table border="1">
+            <caption class="caption"><strong>GİRİŞ YAP</strong></caption>
+            <tr>
+                <td>Kullanıcı Adı</td>
+                <td>
+                    <input type="text" id="text" name="text" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Şifre</td>
+                <td>
+                    <input type="password" id="sifre" name="sifre" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" class="buton">
+                    <button type="submit" class="giris-butonu">Giriş Yap</button>
+                </td>
+            </tr>
+        </table>
+
+
+    </form>
+
+
+</body>
+
+</html>
