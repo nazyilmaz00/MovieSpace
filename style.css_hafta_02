@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --ana-renk: #5d242f;
+    --ust-renk: #d8ddab;
+    --baglanti-renk: #5d242f;
+    --zemin: #001e4a;
+    --metin: #dfedff;
+    --footer-renk: #30c220;
+    --baslik-renk: #d09292;
+}
+
+
+body {
+
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--metin);
+    background-color: var(--zemin);
+    margin: 0;
+}
+
+.ust-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    background-color: var(--ust-renk);
+}
+
+/* Sol ve sağ blokların eşit esneklikte olması orta menüyü tam merkeze sabitler */
+.sol-kisim {
+    list-style: none;
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+}
+
+.orta-kisim {
+    list-style: none;
+    /* Liste işaretlerini kaldırır */
+    display: flex;
+    gap: 150px;
+}
+
+
+.isim {
+    font-size: 15px;
+}
+
+
+
+.sag-kisim {
+    list-style: none;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    /* Kapsayıcı içindeki Hesabım linkini en sağa iter */
+    gap: 10px;
+
+}
+
+
+h1 {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--ana-renk);
+
+}
+
+nav {
+    display: inline-block;
+}
+
+h4 {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--baslik-renk);
+
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    vertical-align: middle;
+    font-size: small;
+    color: var(--baglanti-renk);
+    text-decoration: none;
+}
+
+
+footer {
+    text-align: center;
+    color: var(--footer-renk);
+    font-size: small;
+
+}
+
+
+
+/* giriş yapılacak kısmın css kodları*/
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+table td,
+table th {
+    padding: 15px;
+    /* iki hücre arası yazı kısmı mesafesi*/
+    text-align: left;
+}
+
+table input {
+    width: 100%;
+    /* Kutucuğu sağa doğru uzatır */
+    padding: 10px;
+    /* Kutucuğun kendi içini doldurur */
+    border-radius: 5px;
+    /* Kutucuk kenarlarını hafif yuvarlar */
+
+
+}
+
+.caption {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+    /*tablo ile arasındaki mesafe*/
+    color: rgb(255, 179, 79);
+}
+
+.buton {
+    text-align: center;
+    padding-top: 20px;
+    /*buton ile tablo kısmı arasındaki mesafe*/
+    border: none;
+}
+
+.giris-butonu {
+    background-color: #faffae;
+    color: #14213D;
+    padding: 10px 50px;
+    /*buton boyutu*/
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    /* Köşeleri yuvarlatır */
+}
+
+.giris-butonu:hover {
+    opacity: 0.5;
+    /*üzerine gelince olan saydamlık*/
+}
