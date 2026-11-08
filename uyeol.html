@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieSpace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="ust-menu">
+        <div class="sol-kisim">
+            <li>
+                <img src="film.svg" alt="MovieSpace" width="50" height="50">
+                <h1>MovieSpace</h1>
+            </li>
+
+        </div>
+
+
+        <nav class="orta-kisim">
+            <li>
+                <img src="homelogo.svg" alt="vizyon" width="20" height="20">
+                <strong><a href="index.html" class="isim">Ana Sayfa</a></strong>
+            </li>
+
+
+            <li>
+                <img src="vizyon.svg" alt="vizyon" width="20" height="20">
+                <strong><a href="" class="isim">Vizyondakiler</a></strong>
+            </li>
+            <li>
+                <img src="izlediklerim.png" alt="watched" width="20" height="20">
+                <strong><a href="" class="isim">İzlediklerim</a></strong>
+            </li>
+
+        </nav>
+
+        <div class="sag-kisim">
+
+            <li>
+                <img src="hesabım.svg" alt="account" width="20" height="20">
+                <strong><a href="hesabim.html" class="isim">Hesabım</a></strong>
+            </li>
+        </div>
+
+    </header>
+
+
+    <div class="signup-container">
+        <h2>MovieSpace'e Katıl</h2>
+        <form action="index.html" method="POST" class="signup-form">
+            <table>
+                <tr>
+                    <td><label for="fullname">İsim Soyisim:</label></td>
+                    <td>
+                        <input type="text" id="fullname" name="fullname" placeholder="Adınız ve Soyadınız" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="birthdate">Doğum Tarihi:</label></td>
+                    <td>
+                        <input type="date" id="birthdate" name="birthdate" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="username">Kullanıcı Adı:</label></td>
+                    <td>
+                        <input type="text" id="username" name="username" placeholder="Benzersiz bir kullanıcı adı seçin"
+                            required>
+                        <small class="info-text">*Bu kullanıcı adı sistemde tek olmalıdır.</small>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="password">Şifre:</label></td>
+                    <td>
+                        <input type="password" id="password" name="password" placeholder="Güçlü bir şifre belirleyin"
+                            required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="submit-cell">
+                        <button type="submit" class="submit-btn">ÜYE OL</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 MovieSpace &middot;Tüm hakları saklıdır.</p>
+    </footer>
+
+
+</body>
+
+
+
+
+</html>
