@@ -7,6 +7,7 @@ Bu projede kullanıcıların izledikleri filmlerin değerlendirmesini yaptığı
 * CSS
 * JavaScript
 * Python
+* API (TMDB)
 
 ## Kurulum ve Çalıştırma
 Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
