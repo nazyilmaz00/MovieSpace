@@ -6,6 +6,7 @@ Bu projede kullanıcıların izledikleri filmlerin değerlendirmesini yaptığı
 * HTML
 * CSS
 * JavaScript
+* Python
 
 ## Kurulum ve Çalıştırma
 Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
