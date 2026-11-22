@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yap - MovieSpace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="ust-menu">
+
+        <!-- Logo + MovieSpace + Arama Çubuğu -->
+        <div class="sol-kisim">
+            <div class="logo-alani">
+                <img src="film.svg" alt="MovieSpace" width="50" height="50">
+                <h1>MovieSpace</h1>
+            </div>
+
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Film veya dizi ara..." />
+            </div>
+        </div>
+
+        <!-- Orta Menü Linkleri -->
+        <nav class="orta-kisim">
+            <a href="index.html" class="menu-item isim">
+                <img src="homelogo.svg" alt="Ana Sayfa" width="20" height="20">
+                <strong>Ana Sayfa</strong>
+            </a>
+
+            <a href="#" class="menu-item isim">
+                <img src="vizyon.svg" alt="Vizyondakiler" width="20" height="20">
+                <strong>Vizyondakiler</strong>
+            </a>
+
+            <a href="#" class="menu-item isim">
+                <img src="izlediklerim.png" alt="İzlediklerim" width="20" height="20">
+                <strong>İzlediklerim</strong>
+            </a>
+        </nav>
+
+        <!-- Sağ Hesap Kısmı -->
+        <div class="sag-kisim">
+            <a href="hesabim.html" class="menu-item isim">
+                <img src="hesabım.svg" alt="Hesabım" width="20" height="20">
+                <strong>Hesabım</strong>
+            </a>
+            <div class="top-auth-links">
+
+                <a href="uyeol.html">Üye Ol</a>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="login-container">
+        <h2>GİRİŞ YAP</h2>
+        <form action="index.html" method="post" class="login-form">
+            <table>
+                <tr>
+                    <td><label for="kullanici-adi">Kullanıcı Adı</label></td>
+                    <td>
+                        <input type="text" id="kullanici-adi" name="kullanici-adi" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="sifre">Şifre</label></td>
+                    <td>
+                        <input type="password" id="sifre" name="sifre" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="login-submit-cell">
+                        <button type="submit" class="login-btn">GİRİŞ YAP</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+
+</html>
