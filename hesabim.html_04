@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieSpace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="ust-menu">
+
+        <!-- Logo + MovieSpace + Arama Çubuğu -->
+        <div class="sol-kisim">
+            <div class="logo-alani">
+                <img src="film.svg" alt="MovieSpace" width="50" height="50">
+                <h1>MovieSpace</h1>
+            </div>
+
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Film veya dizi ara..." />
+            </div>
+        </div>
+
+        <!-- Orta Menü Linkleri -->
+        <nav class="orta-kisim">
+            <a href="index.html" class="menu-item isim">
+                <img src="homelogo.svg" alt="Ana Sayfa" width="20" height="20">
+                <strong>Ana Sayfa</strong>
+            </a>
+
+            <a href="#" class="menu-item isim">
+                <img src="vizyon.svg" alt="Vizyondakiler" width="20" height="20">
+                <strong>Vizyondakiler</strong>
+            </a>
+
+            <a href="#" class="menu-item isim">
+                <img src="izlediklerim.png" alt="İzlediklerim" width="20" height="20">
+                <strong>İzlediklerim</strong>
+            </a>
+        </nav>
+
+        <!-- Sağ Hesap Kısmı -->
+        <div class="sag-kisim">
+            <a href="hesabim.html" class="menu-item isim">
+                <img src="hesabım.svg" alt="Hesabım" width="20" height="20">
+                <strong>Hesabım</strong>
+            </a>
+
+        </div>
+
+    </header>
+
+    <main>
+        <div class="profile-container">
+            <h2>Hesabım</h2>
+            <form action="hesabim.html" method="POST" class="profile-form">
+                <table>
+                    <tr>
+                        <td><label for="username">Kullanıcı Adı:</label></td>
+                        <td>
+                            <input type="text" id="username" name="username" value="nazyilmaz" required>
+                            <small class="info-text">Kullanıcı adı yılda iki kez değiştirilebilir.</small>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="fullname">İsim Soyisim:</label></td>
+                        <td>
+                            <input type="text" id="fullname" name="fullname" value="Yeter Naz Yılmaz" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="birthdate">Doğum Tarihi:</label></td>
+                        <td>
+                            <input type="date" id="birthdate" name="birthdate" value="2007-06-06" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Yeni Şifre:</label></td>
+                        <td>
+                            <input type="password" id="password" name="password"
+                                placeholder="Değiştirmek istemiyorsanız boş bırakın">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="submit-cell">
+                            <button type="submit" class="submit-btn">Değişiklikleri Kaydet</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MovieSpace &middot;Tüm hakları saklıdır.</p>
+    </footer>
+
+
+</body>
+
+
+
+
+</html>
